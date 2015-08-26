@@ -3,8 +3,7 @@
   sudo apt-get update && sudo apt-get install python-software-properties
 
   sudo add-apt-repository ppa:ondrej/php5-5.6
-
-  sudo apt-get install -y apache2 php5 php5-cli mysql-server
+  sudo apt-get install -y apache2 apache2-utils apache2-mpm-prefork php5 php5-cli 
 
   rm -rf /var/www/html
   ln -s /vagrant/www /var/www/html
