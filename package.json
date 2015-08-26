@@ -1,15 +1,15 @@
 {
-  "name": "cgt356-base",
-  "version": "0.0.0",
-  "description": "base repository for projects and labs in cgt356",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://whtevn@bitbucket.org/whtevn/cgt356-base.git"
-  },
-  "author": "Evan Short < evan.short@gmail.com >",
-  "license": "MIT"
+	"name": "cgt356-base",
+	"version": "0.0.1",
+	"description": "base repository for projects and labs in cgt356",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://whtevn@bitbucket.org/whtevn/cgt356-base.git"
+	},
+	"author": "Evan Short < evan.short@gmail.com >",
+	"license": "MIT"
 }
