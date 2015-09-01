@@ -1,6 +1,6 @@
 {
 	"name": "cgt356-base",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "base repository for projects and labs in cgt356",
 	"main": "index.js",
 	"scripts": {
