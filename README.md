@@ -16,3 +16,7 @@ to read only one line
 to follow the error log and read no lines 
 
     $ vagrant ssh -- tail -f -n 0 /var/log/apache2/error.log
+
+### For Windows Machines ###
+
+    $ vagrant ssh -c "tail -f -n 0 /var/log/apache2/error.log"
