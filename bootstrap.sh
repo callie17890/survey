@@ -21,4 +21,8 @@
   mysql --execute="
   CREATE USER 'root'@'%';
   GRANT ALL ON *.* to root@'%';
-  FLUSH PRIVILEGES;"
+  FLUSH PRIVILEGES;
+  CREATE DATABASE project3_db;"
+
+  mysql --database lab_db < /vagrant/lab-db.sql
+
