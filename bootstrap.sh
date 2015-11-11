@@ -24,6 +24,6 @@
   FLUSH PRIVILEGES;
   CREATE DATABASE project3_db;"
 
-  mysql --database lab_db < /vagrant/project3_db.sql
+  mysql --database project3_db < /vagrant/project3_db.sql
 
 
