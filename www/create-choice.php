@@ -1,6 +1,7 @@
 <?php
 // including the db_connect file for database helper functions
 include 'db_connect.php';
+include 'security.php';
 
 // opening the connection to the mysql database
 $mysql_link = connect('root', '', 'project3_db');
